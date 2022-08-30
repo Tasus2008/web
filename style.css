@@ -1,0 +1,130 @@
+body {
+    margin: 0%;
+}
+
+.div-inbody {
+    background-color: #B0CBA0;
+    width: 100%;
+    height: 600px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.div-menu {
+    background-color: #98bb85;
+    border: #0e5515 solid 5px;
+    width: 700px;
+    height: 90px;
+    position: absolute;
+    margin: 50px 0px 0px 325px;
+    border-radius: 25px;
+    display: flex;
+}
+
+
+
+.div-1 {
+    justify-items: center;
+    text-align: center;
+
+    width: 233px;
+    height: 90px;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 3em;
+    color: #05470c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div-2 {
+
+    text-align: center;
+    justify-items: center;
+    width: 233px;
+    height: 90px;
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #05470c;
+}
+
+.div-3 {
+
+    text-align: center;
+    justify-items: center;
+    width: 234px;
+    height: 90px;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #05470c;
+}
+
+.div-1:hover {
+    background-color: #31993e;
+    cursor: grab;
+}
+
+.div-2:hover {
+    background-color: #31993e;
+    cursor: grab;
+}
+
+.div-3:hover {
+    background-color: #31993e;
+    cursor: pointer;
+
+}
+
+#telegram {
+    display: flex;
+   
+
+}
+
+.img-1 {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.ul-1 {
+    width: 290px;
+    height: 190px;
+    border-radius: 25px;
+display: none;
+    background-color: #31993f86;
+    position: absolute;
+    margin-bottom: 20px;
+   
+
+}
+
+#discord {
+    display: flex;
+
+}
+
+#discord img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    
+    
+}
+
+#instagram {
+    display: flex;
+
+}
+
+#instagram img {
+
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+
+
+.div-3:hover .ul-1{
+
+    display: block;
+}
